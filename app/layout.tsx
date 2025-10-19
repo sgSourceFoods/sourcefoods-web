@@ -24,8 +24,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${poppins.variable} antialiased`}>
         <NavigationBar />
-        <div className="mt-[112px] bg-gradient-to-b from-navigation via-background to-footer min-h-screen">
-          {children}
+        <div className="mt-[110px] bg-gradient-to-b from-navigation via-background to-footer min-h-screen ">
+          <div className="px-8 lg:max-w-7xl mx-auto">{children}</div>
         </div>
         <Footer />
       </body>
