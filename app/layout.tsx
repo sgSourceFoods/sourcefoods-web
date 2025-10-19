@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
 import NavigationBar from "@/components/navigation-bar/navigation-bar";
+import Footer from "@/components/footer/footer";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -23,7 +24,10 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${poppins.variable} antialiased`}>
         <NavigationBar />
-        {children}
+        <div className="mt-[112px] bg-gradient-to-b from-navigation via-background to-footer min-h-screen">
+          {children}
+        </div>
+        <Footer />
       </body>
     </html>
   );
