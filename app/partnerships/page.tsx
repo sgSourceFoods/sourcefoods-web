@@ -28,12 +28,12 @@ export default function Partnerships() {
               <span className="text-sm font-medium text-slate-700">Partnership Opportunities</span>
             </div>
             
-            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-slate-900 mb-6">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-slate-900 mb-6">
               Partner with{' '}
               <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">SourceFoods</span>
             </h1>
             
-            <p className="text-xl sm:text-2xl text-slate-700 mb-8 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-lg sm:text-xl text-slate-700 mb-8 max-w-3xl mx-auto leading-relaxed">
               Join Singapore's leading food waste reduction network and amplify your social impact
             </p>
             
@@ -55,11 +55,11 @@ export default function Partnerships() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl sm:text-5xl font-bold text-slate-900 mb-4">
+            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
               Why Partner with SourceFoods?
             </h2>
-            <div className="mx-auto w-20 h-1.5 bg-gradient-to-r from-primary to-secondary rounded-full mb-6"></div>
-            <p className="text-xl text-slate-600 max-w-3xl mx-auto">
+            <div className="mx-auto w-16 h-1 bg-gradient-to-r from-primary to-secondary rounded-full mb-6"></div>
+            <p className="text-lg text-slate-600 max-w-3xl mx-auto">
               Together, we can create a more sustainable and equitable food system in Singapore
             </p>
           </div>
@@ -111,11 +111,11 @@ export default function Partnerships() {
       <section id="partnership-tiers" className="py-20 bg-food-pattern-organic relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl sm:text-5xl font-bold text-slate-900 mb-4">
+            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
               Partnership Tiers
             </h2>
-            <div className="mx-auto w-20 h-1.5 bg-gradient-to-r from-primary to-secondary rounded-full mb-6"></div>
-            <p className="text-xl text-slate-600 max-w-3xl mx-auto">
+            <div className="mx-auto w-16 h-1 bg-gradient-to-r from-primary to-secondary rounded-full mb-6"></div>
+            <p className="text-lg text-slate-600 max-w-3xl mx-auto">
               Choose the partnership level that best fits your organization's goals and capacity
             </p>
           </div>
@@ -292,11 +292,11 @@ export default function Partnerships() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl sm:text-5xl font-bold text-slate-900 mb-4">
+            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
               Trusted by Leading Organizations
             </h2>
-            <div className="mx-auto w-20 h-1.5 bg-gradient-to-r from-primary to-secondary rounded-full mb-6"></div>
-            <p className="text-xl text-slate-600 max-w-3xl mx-auto">
+            <div className="mx-auto w-16 h-1 bg-gradient-to-r from-primary to-secondary rounded-full mb-6"></div>
+            <p className="text-lg text-slate-600 max-w-3xl mx-auto">
               Join Singapore's most impactful organizations in reducing food waste
             </p>
           </div>
@@ -325,10 +325,10 @@ export default function Partnerships() {
       <section id="partnership-form" className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl sm:text-5xl font-bold text-slate-900 mb-4">
+            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
               Ready to Partner?
             </h2>
-            <p className="text-xl text-slate-600 max-w-2xl mx-auto">
+            <p className="text-lg text-slate-600 max-w-2xl mx-auto">
               Let's discuss how we can work together to create meaningful impact in Singapore's food ecosystem
             </p>
           </div>

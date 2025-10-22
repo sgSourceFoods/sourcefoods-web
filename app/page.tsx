@@ -63,19 +63,19 @@ export default function Home() {
             
             {/* Main heading with enhanced typography */}
             <div className="space-y-6">
-              <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-slate-900 leading-none">
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-slate-900 leading-tight">
                 Smarter Aid,{' '}
                 <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Feed More</span>
               </h1>
-              <div className="mx-auto w-20 h-1.5 bg-gradient-to-r from-primary to-secondary rounded-full"></div>
-              <p className="text-xl sm:text-2xl font-medium text-slate-700 max-w-2xl mx-auto leading-relaxed">
+              <div className="mx-auto w-16 h-1 bg-gradient-to-r from-primary to-secondary rounded-full"></div>
+              <p className="text-lg sm:text-xl font-medium text-slate-700 max-w-2xl mx-auto leading-relaxed">
                 Connecting Singapore's food ecosystem to reduce waste and feed communities
               </p>
             </div>
             
             {/* Enhanced description */}
             <div className="max-w-3xl mx-auto space-y-4">
-              <p className="text-lg sm:text-xl text-slate-700 leading-relaxed">
+              <p className="text-base sm:text-lg text-slate-600 leading-relaxed">
                 SourceFoods reduces food waste by connecting food donors, NGOs, and volunteers through real-time coordination and data-driven insights.
               </p>
               
@@ -134,10 +134,10 @@ export default function Home() {
               <div className="w-2 h-2 bg-red-500 rounded-full"></div>
               <span className="text-sm font-medium text-red-700">The Challenge</span>
             </div>
-            <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
+            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
               Singapore's Food Waste Crisis
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-lg text-slate-600 max-w-3xl mx-auto">
               Every year, Singapore discards 817,000 tonnes of food while many communities face food insecurity.
             </p>
           </div>
@@ -247,11 +247,11 @@ export default function Home() {
         </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
               How SourceFoods Works
             </h2>
-            <div className="mx-auto w-20 h-1.5 bg-gradient-to-r from-primary to-secondary rounded-full mb-6"></div>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <div className="mx-auto w-16 h-1 bg-gradient-to-r from-primary to-secondary rounded-full mb-6"></div>
+            <p className="text-lg text-slate-600 max-w-3xl mx-auto">
               A simple yet powerful process that transforms food waste into community nourishment
             </p>
           </div>
@@ -327,11 +327,11 @@ export default function Home() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
               Designed for Impact
             </h2>
-            <div className="mx-auto w-20 h-1.5 bg-gradient-to-r from-primary to-secondary rounded-full mb-6"></div>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <div className="mx-auto w-16 h-1 bg-gradient-to-r from-primary to-secondary rounded-full mb-6"></div>
+            <p className="text-lg text-slate-600 max-w-3xl mx-auto">
               Our platform combines cutting-edge technology with human-centered design to maximize social impact
             </p>
           </div>
@@ -383,51 +383,51 @@ export default function Home() {
       <section className="py-20 bg-gradient-to-r from-primary via-primary/95 to-secondary/20 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl sm:text-4xl font-bold mb-4">Our Growing Impact</h2>
-            <div className="mx-auto w-20 h-1 bg-white/30 rounded-full mb-6"></div>
-            <p className="text-lg text-white/90 max-w-2xl mx-auto">
+            <h2 className="text-2xl sm:text-3xl font-bold mb-4">Our Growing Impact</h2>
+            <div className="mx-auto w-16 h-1 bg-white/30 rounded-full mb-6"></div>
+            <p className="text-base text-white/90 max-w-2xl mx-auto">
               Every day, we're making a difference in communities across Singapore
             </p>
           </div>
           
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
             <div className="space-y-2">
-              <div className="text-4xl lg:text-5xl font-bold">
-                <ClientOnly fallback={<span className="text-4xl lg:text-5xl font-bold">12500+</span>}>
-                  <AnimatedCounter value={12500} suffix="+" className="text-4xl lg:text-5xl font-bold" />
+              <div className="text-3xl lg:text-4xl font-bold">
+                <ClientOnly fallback={<span className="text-3xl lg:text-4xl font-bold">12500+</span>}>
+                  <AnimatedCounter value={12500} suffix="+" className="text-3xl lg:text-4xl font-bold" />
                 </ClientOnly>
               </div>
-              <div className="text-lg lg:text-xl opacity-90 font-medium">Meals Redistributed</div>
+              <div className="text-base lg:text-lg opacity-90 font-medium">Meals Redistributed</div>
               <div className="text-sm opacity-75">Preventing food waste daily</div>
             </div>
             
             <div className="space-y-2">
-              <div className="text-4xl lg:text-5xl font-bold">
-                <ClientOnly fallback={<span className="text-4xl lg:text-5xl font-bold">85+</span>}>
-                  <AnimatedCounter value={85} suffix="+" className="text-4xl lg:text-5xl font-bold" />
+              <div className="text-3xl lg:text-4xl font-bold">
+                <ClientOnly fallback={<span className="text-3xl lg:text-4xl font-bold">85+</span>}>
+                  <AnimatedCounter value={85} suffix="+" className="text-3xl lg:text-4xl font-bold" />
                 </ClientOnly>
               </div>
-              <div className="text-lg lg:text-xl opacity-90 font-medium">Partner Organizations</div>
+              <div className="text-base lg:text-lg opacity-90 font-medium">Partner Organizations</div>
               <div className="text-sm opacity-75">NGOs, restaurants & suppliers</div>
             </div>
             
             <div className="space-y-2">
-              <div className="text-4xl lg:text-5xl font-bold">
-                <ClientOnly fallback={<span className="text-4xl lg:text-5xl font-bold">750+</span>}>
-                  <AnimatedCounter value={750} suffix="+" className="text-4xl lg:text-5xl font-bold" />
+              <div className="text-3xl lg:text-4xl font-bold">
+                <ClientOnly fallback={<span className="text-3xl lg:text-4xl font-bold">750+</span>}>
+                  <AnimatedCounter value={750} suffix="+" className="text-3xl lg:text-4xl font-bold" />
                 </ClientOnly>
               </div>
-              <div className="text-lg lg:text-xl opacity-90 font-medium">Active Volunteers</div>
+              <div className="text-base lg:text-lg opacity-90 font-medium">Active Volunteers</div>
               <div className="text-sm opacity-75">Passionate community helpers</div>
             </div>
             
             <div className="space-y-2">
-              <div className="text-4xl lg:text-5xl font-bold">
-                <ClientOnly fallback={<span className="text-4xl lg:text-5xl font-bold">25</span>}>
-                  <AnimatedCounter value={25} className="text-4xl lg:text-5xl font-bold" />
+              <div className="text-3xl lg:text-4xl font-bold">
+                <ClientOnly fallback={<span className="text-3xl lg:text-4xl font-bold">25</span>}>
+                  <AnimatedCounter value={25} className="text-3xl lg:text-4xl font-bold" />
                 </ClientOnly>
               </div>
-              <div className="text-lg lg:text-xl opacity-90 font-medium">Tonnes Saved Monthly</div>
+              <div className="text-base lg:text-lg opacity-90 font-medium">Tonnes Saved Monthly</div>
               <div className="text-sm opacity-75">Food waste prevented</div>
             </div>
           </div>
@@ -479,11 +479,11 @@ export default function Home() {
         </div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
               Community Voices
             </h2>
-            <div className="mx-auto w-20 h-1.5 bg-gradient-to-r from-primary to-secondary rounded-full mb-6"></div>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <div className="mx-auto w-16 h-1 bg-gradient-to-r from-primary to-secondary rounded-full mb-6"></div>
+            <p className="text-lg text-slate-600 max-w-3xl mx-auto">
               Hear from the partners and communities who are making this vision a reality
             </p>
           </div>
@@ -613,11 +613,11 @@ export default function Home() {
         <div className="section-divider-food max-w-4xl mx-auto mb-16"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl sm:text-5xl font-bold text-slate-900 mb-4">
+            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
               Real-Time Impact Across Singapore
             </h2>
-            <div className="mx-auto w-20 h-1.5 bg-gradient-to-r from-primary to-secondary rounded-full mb-6"></div>
-            <p className="text-xl text-slate-600 max-w-3xl mx-auto">
+            <div className="mx-auto w-16 h-1 bg-gradient-to-r from-primary to-secondary rounded-full mb-6"></div>
+            <p className="text-lg text-slate-600 max-w-3xl mx-auto">
               See how SourceFoods is making a difference in communities across all five regions of Singapore
             </p>
           </div>
@@ -712,10 +712,10 @@ export default function Home() {
       {/* Newsletter CTA Section */}
       <section className="py-20 bg-gradient-to-r from-primary/8 to-secondary/8">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
             Stay Connected with Our Mission
           </h2>
-          <p className="text-lg text-slate-600 mb-8 max-w-2xl mx-auto">
+          <p className="text-base text-slate-600 mb-8 max-w-2xl mx-auto">
             Get updates on our progress, impact stories, and opportunities to get involved in reducing food waste across Singapore.
           </p>
           
@@ -773,11 +773,11 @@ export default function Home() {
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl sm:text-5xl font-bold text-slate-900 mb-4">
+            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
               Frequently Asked Questions
             </h2>
-            <div className="mx-auto w-20 h-1.5 bg-gradient-to-r from-primary to-secondary rounded-full mb-6"></div>
-            <p className="text-xl text-slate-600 max-w-2xl mx-auto">
+            <div className="mx-auto w-16 h-1 bg-gradient-to-r from-primary to-secondary rounded-full mb-6"></div>
+            <p className="text-lg text-slate-600 max-w-2xl mx-auto">
               Everything you need to know about joining Singapore's food waste reduction movement
             </p>
           </div>
@@ -887,10 +887,10 @@ export default function Home() {
         </div>
         
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-          <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
+          <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-6">
             Ready to Make an Impact?
           </h2>
-          <p className="text-xl text-gray-600 mb-10 max-w-3xl mx-auto">
+          <p className="text-lg text-slate-600 mb-10 max-w-3xl mx-auto">
             Join thousands of Singaporeans who are already working together to reduce food waste and strengthen our communities.
           </p>
           
