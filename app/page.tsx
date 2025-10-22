@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import AnimatedCounter from "@/components/ui/animated-counter";
 import NewsletterSignup from "@/components/ui/newsletter-signup";
+import ClientOnly from "@/components/ui/client-only";
 
 import Symbol from "@/assets/images/logo/symbol_colour_v2.svg";
 
@@ -392,7 +393,9 @@ export default function Home() {
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
             <div className="space-y-2">
               <div className="text-4xl lg:text-5xl font-bold">
-                <AnimatedCounter value={12500} suffix="+" className="text-4xl lg:text-5xl font-bold" />
+                <ClientOnly fallback={<span className="text-4xl lg:text-5xl font-bold">12500+</span>}>
+                  <AnimatedCounter value={12500} suffix="+" className="text-4xl lg:text-5xl font-bold" />
+                </ClientOnly>
               </div>
               <div className="text-lg lg:text-xl opacity-90 font-medium">Meals Redistributed</div>
               <div className="text-sm opacity-75">Preventing food waste daily</div>
@@ -400,7 +403,9 @@ export default function Home() {
             
             <div className="space-y-2">
               <div className="text-4xl lg:text-5xl font-bold">
-                <AnimatedCounter value={85} suffix="+" className="text-4xl lg:text-5xl font-bold" />
+                <ClientOnly fallback={<span className="text-4xl lg:text-5xl font-bold">85+</span>}>
+                  <AnimatedCounter value={85} suffix="+" className="text-4xl lg:text-5xl font-bold" />
+                </ClientOnly>
               </div>
               <div className="text-lg lg:text-xl opacity-90 font-medium">Partner Organizations</div>
               <div className="text-sm opacity-75">NGOs, restaurants & suppliers</div>
@@ -408,7 +413,9 @@ export default function Home() {
             
             <div className="space-y-2">
               <div className="text-4xl lg:text-5xl font-bold">
-                <AnimatedCounter value={750} suffix="+" className="text-4xl lg:text-5xl font-bold" />
+                <ClientOnly fallback={<span className="text-4xl lg:text-5xl font-bold">750+</span>}>
+                  <AnimatedCounter value={750} suffix="+" className="text-4xl lg:text-5xl font-bold" />
+                </ClientOnly>
               </div>
               <div className="text-lg lg:text-xl opacity-90 font-medium">Active Volunteers</div>
               <div className="text-sm opacity-75">Passionate community helpers</div>
@@ -416,7 +423,9 @@ export default function Home() {
             
             <div className="space-y-2">
               <div className="text-4xl lg:text-5xl font-bold">
-                <AnimatedCounter value={25} className="text-4xl lg:text-5xl font-bold" />
+                <ClientOnly fallback={<span className="text-4xl lg:text-5xl font-bold">25</span>}>
+                  <AnimatedCounter value={25} className="text-4xl lg:text-5xl font-bold" />
+                </ClientOnly>
               </div>
               <div className="text-lg lg:text-xl opacity-90 font-medium">Tonnes Saved Monthly</div>
               <div className="text-sm opacity-75">Food waste prevented</div>
@@ -681,7 +690,9 @@ export default function Home() {
                     <div className="flex items-center justify-between">
                       <span className="text-sm text-slate-600">Meals distributed</span>
                       <span className="font-semibold text-slate-900">
-                        <AnimatedCounter value={region.meals} />
+                        <ClientOnly fallback={<span>{region.meals.toLocaleString()}</span>}>
+                          <AnimatedCounter value={region.meals} />
+                        </ClientOnly>
                       </span>
                     </div>
                     <div className="w-full bg-slate-200 rounded-full h-2">

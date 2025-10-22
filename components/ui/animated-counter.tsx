@@ -22,6 +22,9 @@ export default function AnimatedCounter({
   const countRef = useRef<HTMLSpanElement>(null);
 
   useEffect(() => {
+    // Only run on client side to prevent hydration mismatch
+    if (typeof window === 'undefined') return;
+    
     const observer = new IntersectionObserver(
       (entries) => {
         if (entries[0].isIntersecting && !isVisible) {
@@ -39,7 +42,8 @@ export default function AnimatedCounter({
   }, [isVisible]);
 
   useEffect(() => {
-    if (!isVisible) return;
+    // Only run animation on client side
+    if (!isVisible || typeof window === 'undefined') return;
 
     let startTime: number;
     let animationFrame: number;
