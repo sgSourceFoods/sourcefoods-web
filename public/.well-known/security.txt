@@ -1,0 +1,28 @@
+# Security Policy for SourceFoods
+# This file is used to communicate security contact information
+
+Contact: info@sourcefoods.sg
+Contact: https://t.me/SourceFoods
+
+# Preferred language for security reports
+Preferred-Languages: en
+
+# Canonical URL for this security.txt file
+Canonical: https://sourcefoods.sg/.well-known/security.txt
+
+# Policy information
+Policy: https://sourcefoods.sg/security-policy
+
+# Acknowledgments page
+Acknowledgments: https://sourcefoods.sg/security-acknowledgments
+
+# Hiring information
+Hiring: https://sourcefoods.sg/join-us
+
+# Expires (one year from creation)
+Expires: 2025-10-22T23:59:59.000Z
+
+# Additional information
+# We take security seriously and appreciate responsible disclosure
+# Please include detailed information about any vulnerabilities
+# We aim to respond to security reports within 48 hours
