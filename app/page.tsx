@@ -6,6 +6,9 @@ import NewsletterSignup from "@/components/ui/newsletter-signup";
 import ClientOnly from "@/components/ui/client-only";
 
 import Symbol from "@/assets/images/logo/symbol_colour_v2.svg";
+import MinisterPresentation from "@/assets/images/minister-presentation.jpg";
+import AcademicPresentation from "@/assets/images/academic-presentation.jpg";
+import CDLHPresentation from "@/assets/images/cdlh-presentation.jpg";
 
 export default function Home() {
   return (
@@ -383,52 +386,52 @@ export default function Home() {
       <section className="py-20 bg-gradient-to-r from-primary via-primary/95 to-secondary/20 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-2xl sm:text-3xl font-bold mb-4">Our Growing Impact</h2>
+            <h2 className="text-2xl sm:text-3xl font-bold mb-4">Our Target Impact</h2>
             <div className="mx-auto w-16 h-1 bg-white/30 rounded-full mb-6"></div>
             <p className="text-base text-white/90 max-w-2xl mx-auto">
-              Every day, we're making a difference in communities across Singapore
+              Working towards meaningful change in communities across Singapore
             </p>
           </div>
           
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
             <div className="space-y-2">
               <div className="text-3xl lg:text-4xl font-bold">
-                <ClientOnly fallback={<span className="text-3xl lg:text-4xl font-bold">12500+</span>}>
-                  <AnimatedCounter value={12500} suffix="+" className="text-3xl lg:text-4xl font-bold" />
+                <ClientOnly fallback={<span className="text-3xl lg:text-4xl font-bold">1000+</span>}>
+                  <AnimatedCounter value={1000} suffix="+" className="text-3xl lg:text-4xl font-bold" />
                 </ClientOnly>
               </div>
-              <div className="text-base lg:text-lg opacity-90 font-medium">Meals Redistributed</div>
-              <div className="text-sm opacity-75">Preventing food waste daily</div>
+              <div className="text-base lg:text-lg opacity-90 font-medium">Meals Target Monthly</div>
+              <div className="text-sm opacity-75">Aiming to prevent waste</div>
             </div>
             
             <div className="space-y-2">
               <div className="text-3xl lg:text-4xl font-bold">
-                <ClientOnly fallback={<span className="text-3xl lg:text-4xl font-bold">85+</span>}>
-                  <AnimatedCounter value={85} suffix="+" className="text-3xl lg:text-4xl font-bold" />
+                <ClientOnly fallback={<span className="text-3xl lg:text-4xl font-bold">50+</span>}>
+                  <AnimatedCounter value={50} suffix="+" className="text-3xl lg:text-4xl font-bold" />
                 </ClientOnly>
               </div>
-              <div className="text-base lg:text-lg opacity-90 font-medium">Partner Organizations</div>
-              <div className="text-sm opacity-75">NGOs, restaurants & suppliers</div>
+              <div className="text-base lg:text-lg opacity-90 font-medium">Partner Organizations Target</div>
+              <div className="text-sm opacity-75">Community centers & food donors</div>
             </div>
             
             <div className="space-y-2">
               <div className="text-3xl lg:text-4xl font-bold">
-                <ClientOnly fallback={<span className="text-3xl lg:text-4xl font-bold">750+</span>}>
-                  <AnimatedCounter value={750} suffix="+" className="text-3xl lg:text-4xl font-bold" />
+                <ClientOnly fallback={<span className="text-3xl lg:text-4xl font-bold">200+</span>}>
+                  <AnimatedCounter value={200} suffix="+" className="text-3xl lg:text-4xl font-bold" />
                 </ClientOnly>
               </div>
-              <div className="text-base lg:text-lg opacity-90 font-medium">Active Volunteers</div>
-              <div className="text-sm opacity-75">Passionate community helpers</div>
+              <div className="text-base lg:text-lg opacity-90 font-medium">Volunteer Target</div>
+              <div className="text-sm opacity-75">Building our community</div>
             </div>
             
             <div className="space-y-2">
               <div className="text-3xl lg:text-4xl font-bold">
-                <ClientOnly fallback={<span className="text-3xl lg:text-4xl font-bold">25</span>}>
-                  <AnimatedCounter value={25} className="text-3xl lg:text-4xl font-bold" />
+                <ClientOnly fallback={<span className="text-3xl lg:text-4xl font-bold">10</span>}>
+                  <AnimatedCounter value={10} className="text-3xl lg:text-4xl font-bold" />
                 </ClientOnly>
               </div>
-              <div className="text-base lg:text-lg opacity-90 font-medium">Tonnes Saved Monthly</div>
-              <div className="text-sm opacity-75">Food waste prevented</div>
+              <div className="text-base lg:text-lg opacity-90 font-medium">Tonnes Target Monthly</div>
+              <div className="text-sm opacity-75">Food waste to prevent</div>
             </div>
           </div>
           
@@ -461,9 +464,9 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Testimonials Section */}
+      {/* Our Journey Section */}
       <section className="py-20 bg-food-icons relative">
-        {/* Food decorations for testimonials */}
+        {/* Food decorations */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <div className="food-decoration animate-float delay-1 top-20 left-16 text-primary">
             <svg width="32" height="32" viewBox="0 0 32 32" fill="currentColor">
@@ -480,77 +483,200 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
-              Community Voices
+              Our Journey So Far
             </h2>
             <div className="mx-auto w-16 h-1 bg-gradient-to-r from-primary to-secondary rounded-full mb-6"></div>
             <p className="text-lg text-slate-600 max-w-3xl mx-auto">
-              Hear from the partners and communities who are making this vision a reality
+              Building partnerships and presenting our vision to community leaders and government officials
             </p>
           </div>
           
-          <div className="grid md:grid-cols-3 gap-8">
-            {/* Testimonial 1 */}
-            <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100 hover:shadow-lg transition-shadow duration-300">
-              <div className="flex items-center mb-4">
-                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mr-4">
-                  <svg className="w-6 h-6 text-primary" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M21 12c0 1.2-4.03 6-9 6s-9-4.8-9-6c0-1.2 4.03-6 9-6s9 4.8 9 6z"/>
-                    <circle cx="12" cy="12" r="3"/>
-                  </svg>
+          {/* Arrow Timeline Design */}
+          <div className="relative">
+            {/* Timeline connector - curved arrow path */}
+            <div className="hidden lg:block absolute top-1/2 left-0 right-0 h-1 transform -translate-y-1/2">
+              <svg className="w-full h-24" viewBox="0 0 800 100" fill="none">
+                {/* Curved arrow path */}
+                <path 
+                  d="M50 50 Q400 20 750 50" 
+                  stroke="url(#gradient)" 
+                  strokeWidth="2" 
+                  fill="none"
+                  strokeDasharray="5,5"
+                  className="animate-pulse"
+                />
+                {/* Arrow heads at connection points */}
+                <polygon points="745,45 755,50 745,55" fill="#16a34a" className="animate-pulse"/>
+                <polygon points="395,15 405,20 395,25" fill="#f59e0b" className="animate-pulse"/>
+                
+                <defs>
+                  <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" stopColor="#059669" />
+                    <stop offset="50%" stopColor="#f59e0b" />
+                    <stop offset="100%" stopColor="#16a34a" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+            
+            <div className="grid lg:grid-cols-3 gap-8 relative z-10">
+              {/* Step 1: Government Engagement */}
+              <div className="relative">
+                <div className="absolute -top-4 -left-4 w-12 h-12 bg-primary rounded-full flex items-center justify-center text-white font-bold text-xl shadow-lg z-20">
+                  1
                 </div>
-                <div>
-                  <h4 className="font-semibold text-slate-900">Sarah Chen</h4>
-                  <p className="text-sm text-slate-600">Food Bank Singapore</p>
+                <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+                  <div className="aspect-video bg-gradient-to-br from-primary/5 to-secondary/5 rounded-xl mb-4 overflow-hidden">
+                    <Image
+                      src={MinisterPresentation}
+                      alt="SourceFoods team presenting to Senior Minister of State"
+                      width={500}
+                      height={300}
+                      className="w-full h-full object-cover rounded-xl"
+                    />
+                  </div>
+                  <div className="flex items-center mb-3">
+                    <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center mr-3">
+                      <svg className="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                      </svg>
+                    </div>
+                    <div>
+                      <h3 className="text-lg font-bold text-slate-900">Engagement with Government Leaders</h3>
+                      <p className="text-xs text-slate-600">For NDP Engagement 2025 - for Senior Minister of State</p>
+                    </div>
+                  </div>
+                  <p className="text-slate-700 text-sm leading-relaxed mb-3">
+                    Engaging with government leaders to share our vision for reducing food waste and building stronger communities across Singapore.
+                  </p>
+                  <div className="inline-flex items-center px-2 py-1 bg-primary/10 text-primary text-xs font-medium rounded-full">
+                    <svg className="w-3 h-3 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    Government Recognition
+                  </div>
                 </div>
               </div>
-              <p className="text-slate-700 leading-relaxed mb-4">
-                "SourceFoods has transformed how we coordinate food distribution. The real-time matching saves us hours of phone calls and ensures food reaches families faster."
-              </p>
-              <div className="flex text-secondary text-sm">
-                ★★★★★
+              
+              {/* Step 2: Parliamentary Engagement */}
+              <div className="relative">
+                <div className="absolute -top-4 -left-4 w-12 h-12 bg-secondary rounded-full flex items-center justify-center text-white font-bold text-xl shadow-lg z-20">
+                  2
+                </div>
+                <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+                  <div className="aspect-video bg-gradient-to-br from-secondary/5 to-amber-100/50 rounded-xl mb-4 overflow-hidden">
+                    <Image
+                      src={AcademicPresentation}
+                      alt="SourceFoods team presenting to Mr Shawn Huang Wei Zhong, Senior Parliamentary Secretary"
+                      width={500}
+                      height={300}
+                      className="w-full h-full object-cover rounded-xl"
+                    />
+                  </div>
+                  <div className="flex items-center mb-3">
+                    <div className="w-10 h-10 bg-secondary/10 rounded-full flex items-center justify-center mr-3">
+                      <svg className="w-5 h-5 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                      </svg>
+                    </div>
+                    <div>
+                      <h3 className="text-lg font-bold text-slate-900">Visit by Government Representatives</h3>
+                      <p className="text-xs text-slate-600">For Senior Parliamentary Secretary</p>
+                    </div>
+                  </div>
+                  <p className="text-slate-700 text-sm leading-relaxed mb-3">
+                    Hosting visits by government representatives to showcase our innovative approach to food waste reduction and community impact.
+                  </p>
+                  <div className="inline-flex items-center px-2 py-1 bg-secondary/10 text-secondary text-xs font-medium rounded-full">
+                    <svg className="w-3 h-3 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                    </svg>
+                    Parliamentary Recognition
+                  </div>
+                </div>
+              </div>
+              
+              {/* Step 3: Community Engagement */}
+              <div className="relative">
+                <div className="absolute -top-4 -left-4 w-12 h-12 bg-green-600 rounded-full flex items-center justify-center text-white font-bold text-xl shadow-lg z-20">
+                  3
+                </div>
+                <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+                  <div className="aspect-video bg-gradient-to-br from-green-50 to-emerald-100 rounded-xl mb-4 overflow-hidden">
+                    <Image
+                      src={CDLHPresentation}
+                      alt="SourceFoods team with community members at CDLH Innofest 2025"
+                      width={500}
+                      height={300}
+                      className="w-full h-full object-cover rounded-xl"
+                    />
+                  </div>
+                  <div className="flex items-center mb-3">
+                    <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center mr-3">
+                      <svg className="w-5 h-5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 515.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                      </svg>
+                    </div>
+                    <div>
+                      <h3 className="text-lg font-bold text-slate-900">Community Outreach</h3>
+                      <p className="text-xs text-slate-600">CDLH Innofest 2025</p>
+                    </div>
+                  </div>
+                  <p className="text-slate-700 text-sm leading-relaxed mb-3">
+                    Engaging directly with community members, sharing our mission and gathering valuable feedback from the people we aim to serve.
+                  </p>
+                  <div className="inline-flex items-center px-2 py-1 bg-green-100 text-green-700 text-xs font-medium rounded-full">
+                    <svg className="w-3 h-3 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                    </svg>
+                    Community Engagement
+                  </div>
+                </div>
               </div>
             </div>
             
-            {/* Testimonial 2 */}
-            <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100 hover:shadow-lg transition-shadow duration-300">
-              <div className="flex items-center mb-4">
-                <div className="w-12 h-12 bg-secondary/10 rounded-full flex items-center justify-center mr-4">
-                  <svg className="w-6 h-6 text-secondary" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/>
-                  </svg>
-                </div>
-                <div>
-                  <h4 className="font-semibold text-slate-900">Marcus Lim</h4>
-                  <p className="text-sm text-slate-600">Restaurant Owner</p>
-                </div>
+            {/* Progress indicator */}
+            <div className="flex justify-center mt-8 space-x-4">
+              <div className="flex items-center space-x-2">
+                <div className="w-3 h-3 bg-primary rounded-full"></div>
+                <span className="text-xs text-slate-600">Government</span>
               </div>
-              <p className="text-slate-700 leading-relaxed mb-4">
-                "Instead of throwing away perfectly good food, we can now easily connect with communities who need it. It's rewarding to see our surplus make a real difference."
-              </p>
-              <div className="flex text-secondary text-sm">
-                ★★★★★
+              <div className="flex items-center space-x-2">
+                <div className="w-3 h-3 bg-secondary rounded-full"></div>
+                <span className="text-xs text-slate-600">Parliamentary</span>
+              </div>
+              <div className="flex items-center space-x-2">
+                <div className="w-3 h-3 bg-green-600 rounded-full"></div>
+                <span className="text-xs text-slate-600">Community</span>
               </div>
             </div>
-            
-            {/* Testimonial 3 */}
-            <div className="bg-white rounded-2xl p-8 shadow-sm border border-slate-200 hover:shadow-lg transition-shadow duration-300">
-              <div className="flex items-center mb-4">
-                <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mr-4">
-                  <svg className="w-6 h-6 text-green-600" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M16 4c0-1.11.89-2 2-2s2 .89 2 2-.89 2-2 2-2-.89-2-2zm4 18v-6h2.5l-2.54-7.63A1.5 1.5 0 0 0 18.5 7.5h-1c-.83 0-1.5.67-1.5 1.5v6h-2v-6c0-1.1-.9-2-2-2H9.5c-1.1 0-2 .9-2 2v6H5.5v-6c0-.83-.67-1.5-1.5-1.5h-1a1.5 1.5 0 0 0-1.46.87L0 14.5H2.5V22h4v-6h2v6h4v-6h2v6h4z"/>
-                  </svg>
-                </div>
-                <div>
-                  <h4 className="font-semibold text-slate-900">Priya Raj</h4>
-                  <p className="text-sm text-slate-600">Community Volunteer</p>
-                </div>
+          </div>
+          
+          {/* Achievement badges */}
+          <div className="mt-16 flex flex-wrap justify-center gap-6 items-center">
+            <div className="flex items-center space-x-3 px-6 py-3 bg-primary/5 rounded-full border border-primary/20">
+              <div className="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center">
+                <svg className="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
               </div>
-              <p className="text-slate-700 leading-relaxed mb-4">
-                "Being able to coordinate with other volunteers through the platform makes our food drives so much more effective. We're feeding more families than ever before."
-              </p>
-              <div className="flex text-secondary text-sm">
-                ★★★★★
+              <span className="text-sm font-medium text-slate-700">Government Presented</span>
+            </div>
+            <div className="flex items-center space-x-3 px-6 py-3 bg-secondary/5 rounded-full border border-secondary/20">
+              <div className="w-8 h-8 bg-secondary/10 rounded-full flex items-center justify-center">
+                <svg className="w-4 h-4 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                </svg>
               </div>
+              <span className="text-sm font-medium text-slate-700">Community Engaged</span>
+            </div>
+            <div className="flex items-center space-x-3 px-6 py-3 bg-emerald-50 rounded-full border border-emerald-200">
+              <div className="w-8 h-8 bg-emerald-100 rounded-full flex items-center justify-center">
+                <svg className="w-4 h-4 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+              </div>
+              <span className="text-sm font-medium text-slate-700">Innovation Focused</span>
             </div>
           </div>
         </div>
@@ -577,23 +703,23 @@ export default function Home() {
             ))}
           </div>
           
-          {/* Recognition badges */}
+          {/* Mission alignment badges */}
           <div className="flex flex-wrap justify-center gap-6 items-center">
             <div className="flex items-center space-x-3 px-6 py-3 bg-primary/5 rounded-full border border-primary/20">
               <div className="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center">
                 <svg className="w-4 h-4 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
               </div>
-              <span className="text-sm font-medium text-slate-700">SGClimate Partner</span>
+              <span className="text-sm font-medium text-slate-700">Innovation Driven</span>
             </div>
             <div className="flex items-center space-x-3 px-6 py-3 bg-secondary/5 rounded-full border border-secondary/20">
               <div className="w-8 h-8 bg-secondary/10 rounded-full flex items-center justify-center">
                 <svg className="w-4 h-4 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                 </svg>
               </div>
-              <span className="text-sm font-medium text-slate-700">Social Enterprise Award</span>
+              <span className="text-sm font-medium text-slate-700">Community First</span>
             </div>
             <div className="flex items-center space-x-3 px-6 py-3 bg-emerald-50 rounded-full border border-emerald-200">
               <div className="w-8 h-8 bg-emerald-100 rounded-full flex items-center justify-center">
@@ -641,7 +767,7 @@ export default function Home() {
                 <div className="space-y-3">
                   <h4 className="font-semibold text-slate-900 mb-4 flex items-center">
                     <div className="w-2 h-2 bg-emerald-500 rounded-full animate-pulse mr-3"></div>
-                    Live Activity
+                    Planned Activities
                   </h4>
                   {Array.from({ length: 4 }).map((_, index) => (
                     <div key={index} className="flex items-center space-x-3 p-3 bg-slate-50 rounded-lg">
@@ -652,10 +778,10 @@ export default function Home() {
                       </div>
                       <div className="flex-1">
                         <p className="text-sm text-slate-900 font-medium">
-                          {index === 0 && "25 meals distributed to Bedok Community Centre"}
-                          {index === 1 && "40kg surplus food collected from Restaurant ABC"}
-                          {index === 2 && "18 families supported in Jurong West"}
-                          {index === 3 && "New partner onboarded: Sunshine Supermarket"}
+                          {index === 0 && "25 meals planned for community center distribution"}
+                          {index === 1 && "40kg surplus food collection from partner restaurant"}
+                          {index === 2 && "18 families to be supported in local communities"}
+                          {index === 3 && "New food donor partnership: Local Supermarket"}
                         </p>
                         <p className="text-xs text-slate-500">{3 + index * 2} minutes ago</p>
                       </div>
@@ -667,14 +793,14 @@ export default function Home() {
             
             {/* Regional stats */}
             <div className="space-y-6">
-              <h3 className="text-xl font-bold text-slate-900 mb-6">Impact by Region</h3>
+              <h3 className="text-xl font-bold text-slate-900 mb-6">Planned Impact by Region</h3>
               
               {[
-                { region: "Central", meals: 2850, partners: 23, color: "bg-blue-500" },
-                { region: "East", meals: 3200, partners: 18, color: "bg-emerald-500" },
-                { region: "North", meals: 2100, partners: 15, color: "bg-purple-500" },
-                { region: "West", meals: 2750, partners: 16, color: "bg-orange-500" },
-                { region: "Northeast", meals: 1600, partners: 13, color: "bg-pink-500" }
+                { region: "Central", meals: 300, partners: 10, color: "bg-blue-500" },
+                { region: "East", meals: 250, partners: 8, color: "bg-emerald-500" },
+                { region: "North", meals: 200, partners: 7, color: "bg-purple-500" },
+                { region: "West", meals: 220, partners: 8, color: "bg-orange-500" },
+                { region: "Northeast", meals: 180, partners: 6, color: "bg-pink-500" }
               ].map((region, index) => (
                 <div key={index} className="bg-white rounded-xl p-6 shadow-sm border border-slate-200">
                   <div className="flex items-center justify-between mb-4">
@@ -688,7 +814,7 @@ export default function Home() {
                   </div>
                   <div className="space-y-2">
                     <div className="flex items-center justify-between">
-                      <span className="text-sm text-slate-600">Meals distributed</span>
+                      <span className="text-sm text-slate-600">Meals target monthly</span>
                       <span className="font-semibold text-slate-900">
                         <ClientOnly fallback={<span>{region.meals.toLocaleString()}</span>}>
                           <AnimatedCounter value={region.meals} />
@@ -698,7 +824,7 @@ export default function Home() {
                     <div className="w-full bg-slate-200 rounded-full h-2">
                       <div 
                         className={`h-2 rounded-full ${region.color}`}
-                        style={{ width: `${(region.meals / 3200) * 100}%` }}
+                        style={{ width: `${(region.meals / 300) * 100}%` }}
                       ></div>
                     </div>
                   </div>
@@ -829,10 +955,10 @@ export default function Home() {
             <div className="bg-white rounded-2xl p-8 shadow-sm border border-slate-200">
               <h3 className="text-xl font-bold text-slate-900 mb-4 flex items-center">
                 <span className="w-8 h-8 bg-secondary/10 rounded-full flex items-center justify-center mr-4 text-secondary font-semibold text-sm">5</span>
-                What impact has SourceFoods made so far?
+                What impact does SourceFoods plan to achieve?
               </h3>
               <p className="text-slate-600 leading-relaxed pl-12">
-                We've redistributed over 12,500 meals, prevented 25 tonnes of monthly food waste, and built a network of 85+ partner organizations with 750+ active volunteers. Our impact continues to grow as more organizations join our mission.
+                We're aiming to redistribute over 1,000 meals monthly, prevent 10 tonnes of food waste, and build a network of 50+ partner organizations with 200+ active volunteers. Our planned impact will grow as more organizations join our mission.
               </p>
             </div>
             

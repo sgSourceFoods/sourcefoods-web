@@ -32,12 +32,12 @@ export default function AboutUs() {
                 </h2>
                 <p className="text-lg text-gray-600 leading-relaxed mb-6">
                   To reduce food waste in Singapore by creating an intelligent ecosystem 
-                  that connects food donors, NGOs, and volunteers through real-time coordination 
+                  that connects food donors, community organizations, and volunteers through real-time coordination 
                   and data-driven insights.
                 </p>
                 <p className="text-lg text-gray-600 leading-relaxed">
                   We believe that surplus food should reach communities faster and more efficiently, 
-                  complementing existing efforts by organizations like Food Bank Singapore.
+                  complementing existing food distribution efforts across Singapore.
                 </p>
               </div>
               
@@ -158,25 +158,25 @@ export default function AboutUs() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
-              Our Growing Impact
+              Our Planned Impact
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Since our inception, we've been working tirelessly to create meaningful change in Singapore's food ecosystem.
+              We're preparing to launch and create meaningful change in Singapore's food ecosystem through these targets.
             </p>
           </div>
           
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
             <div className="p-6">
-              <div className="text-4xl lg:text-5xl font-bold text-primary mb-2">10,000+</div>
-              <div className="text-gray-600">Meals Redistributed</div>
+              <div className="text-4xl lg:text-5xl font-bold text-primary mb-2">1,000+</div>
+              <div className="text-gray-600">Monthly Meal Target</div>
             </div>
             <div className="p-6">
               <div className="text-4xl lg:text-5xl font-bold text-secondary mb-2">50+</div>
-              <div className="text-gray-600">Partner Organizations</div>
+              <div className="text-gray-600">Partner Organization Target</div>
             </div>
             <div className="p-6">
-              <div className="text-4xl lg:text-5xl font-bold text-green-600 mb-2">500+</div>
-              <div className="text-gray-600">Active Volunteers</div>
+              <div className="text-4xl lg:text-5xl font-bold text-green-600 mb-2">200+</div>
+              <div className="text-gray-600">Volunteer Target</div>
             </div>
             <div className="p-6">
               <div className="text-4xl lg:text-5xl font-bold text-blue-600 mb-2">24/7</div>

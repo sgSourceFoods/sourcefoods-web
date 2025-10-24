@@ -196,14 +196,14 @@ export default function JoinUs() {
       </section>
 
       {/* Volunteer Process */}
-      <section className="py-20 bg-gradient-to-r from-primary/5 to-secondary/5">
+      <section className="py-20 bg-gradient-to-br from-slate-900 to-slate-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
               How Volunteering Works
             </h2>
             <div className="mx-auto w-16 h-1 bg-gradient-to-r from-primary to-secondary rounded-full mb-6"></div>
-            <p className="text-lg text-slate-600 max-w-3xl mx-auto">
+            <p className="text-lg text-slate-300 max-w-3xl mx-auto">
               A simple 3-step process to start making an impact in your community
             </p>
           </div>
@@ -217,8 +217,8 @@ export default function JoinUs() {
               <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r from-primary to-primary/80 rounded-full text-white font-bold text-xl mb-6 shadow-lg">
                 1
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Sign Up & Onboard</h3>
-              <p className="text-gray-600 mb-6">
+              <h3 className="text-xl font-bold text-white mb-4">Sign Up & Onboard</h3>
+              <p className="text-slate-300 mb-6">
                 Complete our quick registration form and attend a brief orientation session to learn about food safety and our processes.
               </p>
               <div className="bg-white rounded-xl p-4 shadow-sm border border-gray-200">
@@ -238,8 +238,8 @@ export default function JoinUs() {
               <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r from-secondary to-secondary/80 rounded-full text-white font-bold text-xl mb-6 shadow-lg">
                 2
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Choose Your Activities</h3>
-              <p className="text-gray-600 mb-6">
+              <h3 className="text-xl font-bold text-white mb-4">Choose Your Activities</h3>
+              <p className="text-slate-300 mb-6">
                 Pick volunteer opportunities that match your schedule and interests, from food collection to community distribution events.
               </p>
               <div className="bg-white rounded-xl p-4 shadow-sm border border-gray-200">
@@ -256,8 +256,8 @@ export default function JoinUs() {
               <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r from-emerald-500 to-emerald-600 rounded-full text-white font-bold text-xl mb-6 shadow-lg">
                 3
               </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Make an Impact</h3>
-              <p className="text-gray-600 mb-6">
+              <h3 className="text-xl font-bold text-white mb-4">Make an Impact</h3>
+              <p className="text-slate-300 mb-6">
                 Connect with fellow volunteers, help families in need, and see the direct impact of your contributions through our tracking system.
               </p>
               <div className="bg-white rounded-xl p-4 shadow-sm border border-gray-200">
@@ -298,30 +298,30 @@ export default function JoinUs() {
             </h2>
             <div className="mx-auto w-16 h-1 bg-gradient-to-r from-primary to-secondary rounded-full mb-6"></div>
             <p className="text-lg text-slate-600 max-w-3xl mx-auto">
-              Be part of a movement that's already making a real difference across Singapore
+              Be part of our mission to build Singapore's most impactful food waste reduction network
             </p>
           </div>
           
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
             <div className="text-center p-6 bg-gradient-to-br from-primary/5 to-primary/10 rounded-2xl border border-primary/10">
               <div className="text-3xl font-bold text-primary mb-2">750+</div>
-              <div className="text-slate-700 font-medium">Active Volunteers</div>
-              <div className="text-sm text-slate-600 mt-1">Growing every week</div>
+              <div className="text-slate-700 font-medium">Volunteer Target</div>
+              <div className="text-sm text-slate-600 mt-1">Join our mission</div>
             </div>
             <div className="text-center p-6 bg-gradient-to-br from-secondary/5 to-secondary/10 rounded-2xl border border-secondary/10">
               <div className="text-3xl font-bold text-secondary mb-2">85+</div>
-              <div className="text-slate-700 font-medium">Partner Organizations</div>
+              <div className="text-slate-700 font-medium">Partner Goal</div>
               <div className="text-sm text-slate-600 mt-1">Across all regions</div>
             </div>
             <div className="text-center p-6 bg-gradient-to-br from-emerald-50 to-emerald-100 rounded-2xl border border-emerald-200">
               <div className="text-3xl font-bold text-emerald-600 mb-2">12.5K+</div>
-              <div className="text-slate-700 font-medium">Meals Distributed</div>
-              <div className="text-sm text-slate-600 mt-1">By our volunteers</div>
+              <div className="text-slate-700 font-medium">Monthly Meal Target</div>
+              <div className="text-sm text-slate-600 mt-1">Help us achieve this</div>
             </div>
             <div className="text-center p-6 bg-gradient-to-br from-orange-50 to-orange-100 rounded-2xl border border-orange-200">
               <div className="text-3xl font-bold text-orange-600 mb-2">25T</div>
-              <div className="text-slate-700 font-medium">Food Waste Prevented</div>
-              <div className="text-sm text-slate-600 mt-1">Monthly savings</div>
+              <div className="text-slate-700 font-medium">Food Waste Prevention Goal</div>
+              <div className="text-sm text-slate-600 mt-1">Monthly target</div>
             </div>
           </div>
           
