@@ -616,22 +616,6 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            
-            {/* Progress indicator */}
-            <div className="flex justify-center mt-8 space-x-4">
-              <div className="flex items-center space-x-2">
-                <div className="w-3 h-3 bg-primary rounded-full"></div>
-                <span className="text-xs text-slate-600">Government</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <div className="w-3 h-3 bg-secondary rounded-full"></div>
-                <span className="text-xs text-slate-600">Parliamentary</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <div className="w-3 h-3 bg-green-600 rounded-full"></div>
-                <span className="text-xs text-slate-600">Community</span>
-              </div>
-            </div>
           </div>
           
           {/* Achievement badges */}
