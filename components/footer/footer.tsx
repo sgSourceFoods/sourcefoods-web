@@ -39,7 +39,7 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div className="space-y-6">
-            <h3 className="text-xl font-semibold">Quick Links</h3>
+            <h3 className="text-xl font-semibold text-blue-900">Quick Links</h3>
             <nav className="space-y-4">
               <Link href="/" className="block text-gray-300 hover:text-primary transition-colors duration-200 hover:translate-x-1 transform">
                 Home

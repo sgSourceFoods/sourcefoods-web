@@ -239,10 +239,10 @@ export default function Partnerships() {
             <div className="bg-white rounded-2xl p-8 shadow-lg border border-slate-200 hover:shadow-xl transition-all duration-300">
               <div className="text-center mb-6">
                 <div className="inline-flex items-center px-4 py-2 bg-secondary/10 rounded-full mb-4">
-                  <span className="text-sm font-medium text-secondary">Enterprise Partner</span>
+                  <span className="text-sm font-medium text-secondary">Institutional Partner</span>
                 </div>
                 <h3 className="text-2xl font-bold text-slate-900 mb-2">Transform Systems</h3>
-                <p className="text-slate-600">For large corporations and institutions</p>
+                <p className="text-slate-600">For large corporations and institutions under Total Defence Sandbox - MINDEF Nexus</p>
               </div>
               
               <div className="space-y-4 mb-8">
@@ -281,7 +281,7 @@ export default function Partnerships() {
               </div>
 
               <button className="w-full py-3 px-6 text-secondary bg-secondary/10 border border-secondary/30 rounded-xl hover:bg-secondary/20 transition-colors duration-200 font-semibold">
-                Contact Sales
+                Connect with Us
               </button>
             </div>
           </div>
@@ -383,7 +383,7 @@ export default function Partnerships() {
                     <option value="">Select tier</option>
                     <option value="community">Community Partner</option>
                     <option value="strategic">Strategic Partner</option>
-                    <option value="enterprise">Enterprise Partner</option>
+                    <option value="institutional">Institutional Partner</option>
                     <option value="custom">Custom Partnership</option>
                   </select>
                 </div>

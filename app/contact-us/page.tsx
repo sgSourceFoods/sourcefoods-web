@@ -34,11 +34,11 @@ export default function ContactUs() {
 
               {/* Contact methods */}
               <div className="grid sm:grid-cols-2 gap-4">
-                <a href="mailto:info@sourcefoods.sg" className="group flex items-center gap-3 p-4 rounded-xl bg-white/10 border border-white/10 hover:bg-white/15 transition">
+                <a href="mailto:sgsourcefoods@gmail.com" className="group flex items-center gap-3 p-4 rounded-xl bg-white/10 border border-white/10 hover:bg-white/15 transition">
                   <span className="inline-flex items-center justify-center w-10 h-10 rounded-lg bg-white/10">📧</span>
                   <div>
                     <div className="text-sm text-slate-300">Email</div>
-                    <div className="font-semibold">info@sourcefoods.sg</div>
+                    <div className="font-semibold">sgsourcefoods@gmail.com</div>
                   </div>
                 </a>
                 <a href="https://t.me/SourceFoods" target="_blank" rel="noopener noreferrer" className="group flex items-center gap-3 p-4 rounded-xl bg-white/10 border border-white/10 hover:bg-white/15 transition">
