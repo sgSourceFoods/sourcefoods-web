@@ -67,7 +67,7 @@ export default function ContactUs() {
 
             {/* Right: Quick Links */}
             <aside className="bg-white rounded-2xl p-8 border border-slate-200 self-start">
-              <h3 className="text-xl font-bold mb-4">Quick Links</h3>
+              <h3 className="text-xl font-bold mb-4 text-blue-900">Quick Links</h3>
               <ul className="space-y-3 text-slate-700">
                 <li><Link href="/" className="hover:text-primary font-medium">Home</Link></li>
                 <li><Link href="/about-us" className="hover:text-primary font-medium">About Us</Link></li>
