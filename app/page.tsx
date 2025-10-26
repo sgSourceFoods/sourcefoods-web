@@ -141,7 +141,7 @@ export default function Home() {
               Singapore's Food Waste Crisis
             </h2>
             <p className="text-lg text-slate-600 max-w-3xl mx-auto">
-              Every year, Singapore discards 817,000 tonnes of food while many communities face food insecurity.
+              In 2024, Singapore generated 784,000 tonnes of food waste, with only 18% recycled—leaving 646,000 tonnes disposed of while communities face food insecurity.
             </p>
           </div>
           
@@ -156,7 +156,7 @@ export default function Home() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-slate-900">Massive Food Waste</h3>
-                    <p className="text-slate-700">817,000 tonnes of food waste annually - enough to fill 30,000 double-decker buses</p>
+                    <p className="text-slate-700">784,000 tonnes of food waste generated in 2024, with 646,000 tonnes disposed of - equivalent to 25,000 double-decker buses</p>
                   </div>
                 </div>
                 
