@@ -74,7 +74,7 @@ export default function Partnerships() {
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-4">Amplify Your Impact</h3>
               <p className="text-slate-600 leading-relaxed">
-                Scale your food distribution efforts through our network of 85+ partner organizations and 750+ active volunteers across Singapore.
+                Scale your food distribution efforts by connecting with donors, community groups, and volunteers as we build our partner network in Singapore.
               </p>
             </div>
 
@@ -312,7 +312,7 @@ export default function Partnerships() {
 
           <div className="text-center">
             <Link href="#partnership-form" className="inline-flex items-center text-primary font-semibold hover:text-primary/80 transition-colors duration-200">
-              See all 85+ partners
+              Become a partner
               <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>
